@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="xyz.jpap.faktabumidatar.FaktaBumiDatar"
+    android:background="#39add1"
+    android:id="@+id/LayoutDepan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah banyak bukti foto-foto bumi berbentuk globe. Kenapa masih mengira bumi ini datar? \n \n Semua foto bumi globe yang ada saat ini, yang ada di buku-buku pelajaran sekolah, media cetak, media elektronik, siaran ilmu pengetahuan di TV, film-film, dan lain-lain -- hanyalah kartun CGI(Computer Generated Imagery) yang dibuat oleh NASA. Kecuali foto-foto bumi globe tahun 1969-1973, diambil dari jendela pesawat berbentuk bulat untuk memberi ilusi bahwa bumi berbentuk globe. Hal ini telah dijelaskan pada video Flat Earth 101 Episode 11, berikut bukti bocoran rekaman televisi astronot NASA sedang memalsukan rekaman bumi globe dari jendela pesawat. Sebaliknya, jika memang betul bisa pergi ke angkasa luar, mengapa tak ada satupun foto bumi globe yang bukan CGI? Silahkan gunakan kecerdasan anda."
+        android:id="@+id/TextBawah"
+        android:textColor="#fd050000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fakta Berikutnya"
+        android:id="@+id/LihatFaktaButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white" />
+</RelativeLayout>
